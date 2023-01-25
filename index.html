@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Student card</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="container">
+    
     <h1>Карточка студента</h1>
-    <hr size="4" noshade color="orange" width="500"/>
-    <table>
-        <tr>
+    <hr size="2" noshade color="orange" width="1000"/>
+    <DIV class="info">
 
-    
-            <td>
-                <img src="foto.jpg" width="210" alt="нету фото(((">
-            </td>
-            <td>
-                <p><em>Фамилия, имя:</em></p>
-                <p><strong>Захарцев Станислав</strong></p>
-                <p><em>Возраст:</em></p>
-                <p><strong>42 года</strong></p>
-                <p><em>Опыт в програмировании:</em></p>
-                <p><strong>2 дня</strong></p>
-                <p><em>О себе:</em></p>
-                <p>Умен, как богомол, красив как кенгуру. Люблю пиццу, сына Арсюху, Валентину и мотоциклы Harley-Davidson </h3>
-            </td>
-    
-        </tr>
-    </table>    
+        <div><img class="foto" src="foto.jpg"  alt="нету фото(((">
+        </div>
+                        
+        <div class="info-text"><p><em>Фамилия, имя:</em></p>
+            <p><strong>Захарцев Станислав</strong></p>
+            <p><em>Возраст:</em></p>
+            <p><strong>42 года</strong></p>
+            <p><em>Опыт в програмировании:</em></p>
+            <p><strong>2 дня</strong></p>
+            <p><em>О себе:</em></p>
+            <p>Умен, как богомол, красив как кенгуру. Люблю пиццу, сына Арсюху, Валентину и мотоциклы Harley-Davidson </h3>
+        </div>
+    </div>   
+
+    <hr size="2" noshade color="orange" width="1000"/>  
     <h2>Мои цели на обучение</h2>
     <ul type="square">
         <li>Научиться учиться</li>
@@ -34,15 +34,17 @@
         <li>Выбрать направление деятельности в IT сфере</li>
         <li>Трудоустроиться </li>
     </ul>
+    <hr size="2" noshade color="orange" width="1000"/>
     <h2>Сколько времени смогу учится</h2>
-    <table  cellspacing="25">
+
+    <table class="table" border="1">
         <tr>
             <th>день недели</th>
             <th>время</th>
         </tr>
 
-        <td> Понедельник </td>
-        <td> 2-3 часа </td>
+            <td> Понедельник </td>
+            <td> 2-3 часа </td>
         </tr>
             <td>Вторник</td>
             <td>2-3 часа</td>
@@ -64,11 +66,17 @@
         </tr>
 
     </table>
+    <hr size="2" noshade color="orange" width="1000"/>
     <h2>Мои пройденные курсы</h2>
-        <img src="newborn.png" width="500" alt="нету фото(((">
-    <h2>Контакты</h2>
-    <p><a href="https://t.me/Sportster_883" target="_blank">Telegram </a></p>
-    <p> <a href="https://vk.com/id1724084" target="_blank"> vk</a></p>
-    <p> <a href="https://github.com/Sportster883-Orange" target="_blank"> Github</a>   </p>
-</body>
+        <img text src="newborn.png" width="500" alt="нету фото(((">
+        <hr size="2" noshade color="orange" width="1000"/>
+    <div class="contact">
+
+        <h2>Контакты</h2>
+        <p><a href="https://t.me/Sportster_883" target="_blank">Telegram </a></p>
+        <p> <a href="https://vk.com/id1724084" target="_blank"> vk</a></p>
+        <p> <a href="https://github.com/Sportster883-Orange" target="_blank"> Github</a>   </p>
+    </div>
+</div>
+    </body>
 </html>
