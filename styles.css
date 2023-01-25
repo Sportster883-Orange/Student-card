@@ -8,7 +8,7 @@ body {
     display: flex;
 }
 .info-text {
-    margin-left: 40px;
+   margin-left: 40px;
 
 
 }
@@ -52,5 +52,12 @@ h1 {
 .foto{
     width: 230px;
     border-radius: 25%;
+
+}
+.contact {
+    font-size: 30px;
+    font-family: unset;
+    display: flex;
+    column-gap: 30%;
 
 }
